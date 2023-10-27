@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-image: url("https://th.bing.com/th/id/OIP.Bz7ob63SG0CeR9HuwtrHIAHaEK?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: rgb(172, 207, 253);
+    font-size: 4rem;
+
+}
+button{
+    width: 8%;
+    height: 5%;
+    border: none;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: #071e3a83;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+textarea{
+    padding: 10px;
+    font-size: 1.4rem;
+    resize: none;
+    width: 70%;
+    height: 40%;
+    margin-bottom: 0.8rem;
+    border-radius: 8px;
+    background-color: #0e243f;
+    color: rgb(246, 243, 248);
+    box-shadow: 3px 4px 2px 1px rgba(192, 191, 191, 0.808);
+   
+}
